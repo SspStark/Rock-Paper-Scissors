@@ -42,7 +42,7 @@ class RockPaperScissors extends Component {
   state = {
     isGameInProgress: true,
     playerChoice: {},
-    opponentSelected: choicesList[Math.floor(Math.random()) * 3],
+    opponentSelected: choicesList[Math.floor(Math.random() * 3)],
     score: 0,
     gameResult: '',
   }
